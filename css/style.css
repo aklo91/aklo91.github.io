@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'duck_huntregular';
+    src: url('../font/duckhunt-webfont.woff2') format('woff2'),
+         url('../font/duckhunt-webfont.woff') format('woff'),
+         url('../font/duckhunt.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '8bit_wondernominal';
+    src: url('../font/8-bit_wonder-webfont.woff2') format('woff2'),
+         url('../font/8-bit_wonder-webfont.woff') format('woff'),
+         url('../font/8-bit_wonder.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+  background: url('../img/AKLO91backgroundhorz.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: transparent;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: transparent;
+}
+
+#myVideo {
+  display: none;
+  z-index: -4;
+}
+
+* {
+  cursor: url('../img/crosshair.png'), default;
+}
+
+*:active {
+  cursor: url('../img/bang.png'), default;
+}
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    color: #fff;
+    font-family: '8bit_wondernominal', Courier;
+    margin: 0 auto;
+}
+
+footer a {
+  color: #fff;
+}
+
+.abs-center-x {
+    position: relative;
+    z-index: 4;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.abs-center-x a {
+  font-size: 14px;
+  position: relative;
+  z-index: 4;
+  color: #efb501;
+  font-family: '8bit_wondernominal', Courier;
+}
+
+.contentcontainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.gif {
+  width: 75%;
+  z-index: 1;
+  position: absolute;
+  left:0;
+  right: 0;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+
+  html {
+    background: url('https://i.imgur.com/c5Mk14y.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: transparent;
+  }
+
+
+  #myVideo {
+    display: flex;
+    position: fixed;
+    z-index: -3;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.contentcontainer {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  .gif {
+    position: absolute;
+    width: 20%;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+}
