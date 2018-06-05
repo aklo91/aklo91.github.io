@@ -59,6 +59,10 @@ footer a {
   color: #fff;
 }
 
+footer img {
+  padding-bottom: 5px;
+}
+
 .abs-center-x {
     position: relative;
     z-index: 4;
@@ -67,11 +71,12 @@ footer a {
 }
 
 .abs-center-x a {
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: bolder;
   position: relative;
   z-index: 4;
-  color: #efb501;
-  font-family: '8bit_wondernominal', Courier;
+  color: #fff;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .contentcontainer {

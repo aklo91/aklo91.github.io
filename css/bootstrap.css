@@ -3171,12 +3171,11 @@ tbody.collapse.show {
   margin: 0.125rem 0 0;
   font-size: 1rem;
   color: #292b2c;
-  text-align: left;
+  text-align: center;
   list-style: none;
-  background-color: #fff;
+  background-color: transparent;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
 }
 
@@ -4327,11 +4326,11 @@ tbody.collapse.show {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
@@ -4342,7 +4341,7 @@ tbody.collapse.show {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.open,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 1);
 }
 
 .navbar-light .navbar-toggler {
