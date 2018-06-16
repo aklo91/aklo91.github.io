@@ -68,7 +68,7 @@ footer {
     width: 100%;
     font-size: 12px;
     color: #fff;
-    font-family: '8bit_wondernominal', Courier;
+    font-family: Courier;
     margin: 0 auto;
 }
 
@@ -106,6 +106,21 @@ footer img {
   left: 0;
   overflow: hidden;
   flex-direction: column;
+}
+
+.aboutcontainer {
+  position: relative;
+  z-index: 4;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutcopy {
+  width: 85%;
+  font-size: 24px;
+  color: #fff;
+  font-family: Courier;
+  margin: 0 auto;
 }
 
 .titlecontainer {
