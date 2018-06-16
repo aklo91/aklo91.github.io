@@ -105,6 +105,10 @@ footer img {
   margin: 0 auto;
 }
 
+.aboutcopy a {
+  color: #fff;
+}
+
 .titlecontainer {
   position: relative;
   z-index: 4;
@@ -164,7 +168,7 @@ footer img {
   }
 
   .aboutcontainer {
-    margin-top: -7%;
+    margin-top: -5%;
     position: relative;
     z-index: 4;
     flex-direction: column;
