@@ -99,7 +99,7 @@ footer img {
 
 .aboutcopy {
   width: 85%;
-  font-size: 24px;
+  font-size: 18px;
   color: #fff;
   font-family: Courier;
   margin: 0 auto;
@@ -161,6 +161,22 @@ footer img {
     overflow: hidden;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .aboutcontainer {
+    margin-top: -7%;
+    position: relative;
+    z-index: 4;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .aboutcopy {
+    width: 85%;
+    font-size: 24px;
+    color: #fff;
+    font-family: Courier;
+    margin: 0 auto;
   }
 
   .titlecontainer {
