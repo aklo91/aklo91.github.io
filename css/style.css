@@ -51,6 +51,8 @@ footer {
     color: #fff;
     font-family: Courier;
     margin: 0 auto;
+    background-color: #000;
+    opacity: 0.95;
 }
 
 footer a {
