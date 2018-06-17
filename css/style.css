@@ -98,11 +98,12 @@ footer img {
 }
 
 .aboutcopy {
-  width: 100%;
-  font-size: 20px;
+  width: 85%;
+  font-size: 18px;
   color: #EEE;
   font-family: Courier;
   margin: 0 auto;
+  justify-content: center;
 }
 
 .aboutcopy a {
