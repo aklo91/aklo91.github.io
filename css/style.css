@@ -19,7 +19,6 @@ html {
 }
 
 body {
-  height: 100vh;
   width: 100vw;
   background-color: transparent;
 }
@@ -45,7 +44,7 @@ a:hover {
 
 footer {
     position: fixed;
-    height: 100px;
+    height: 105px;
     bottom: 0;
     width: 100%;
     font-size: 12px;
@@ -62,6 +61,7 @@ footer img {
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 5px;
+  padding-top: 10px;
 }
 
 .abs-center-x {
@@ -83,18 +83,36 @@ footer img {
 .contentcontainer {
   display: flex;
   width: 100vw;
-  height: 100vh;
   top: 0;
   left: 0;
-  overflow: hidden;
   flex-direction: column;
+}
+
+.videocontainer {
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.videoWrapper {
+  margin-bottom: 2%;
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .aboutcontainer {
   position: relative;
   z-index: 4;
   flex-direction: column;
-  justify-content: center;
 }
 
 .aboutcopy {
@@ -103,7 +121,6 @@ footer img {
   color: #EEE;
   font-family: Courier;
   margin: 0 auto;
-  justify-content: center;
 }
 
 .aboutcopy a {
@@ -163,17 +180,19 @@ footer img {
     height: 100vh;
     top: 0;
     left: 0;
-    overflow: hidden;
     flex-direction: column;
     justify-content: center;
   }
 
   .aboutcontainer {
-    margin-top: -5%;
+    display: flex;
+    width: 100vw;
+    top: 0;
+    left: 0;
     position: relative;
     z-index: 4;
     flex-direction: column;
-    justify-content: center;
+    margin-top: 20%;
   }
 
   .aboutcopy {
@@ -181,6 +200,11 @@ footer img {
     font-size: 24px;
     color: #fff;
     font-family: Courier;
+    margin: 0 auto;
+  }
+
+  .videocontainer {
+    width: 66vw;
     margin: 0 auto;
   }
 
