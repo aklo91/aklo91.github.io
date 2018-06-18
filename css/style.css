@@ -77,12 +77,9 @@ footer img {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-.contentcontainer {
-  display: flex;
-  width: 100vw;
-  top: 0;
-  left: 0;
-  flex-direction: column;
+.designcontainer {
+  width: 85vw;
+  margin: 0 auto;
 }
 
 .videocontainer {
@@ -170,7 +167,7 @@ footer img {
     min-height: 100%;
   }
 
-.contentcontainer {
+  .homecontainer {
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -199,6 +196,11 @@ footer img {
     margin: 0 auto;
   }
 
+  .designcontainer {
+    width: 50vw;
+    margin: 0 auto;
+  }
+
   .videocontainer {
     width: 66vw;
     margin: 0 auto;
@@ -211,7 +213,7 @@ footer img {
 
   .titlecontainer img {
     width: 10%;
-    margin-top: -9%;
+    margin-top: -12%;
   }
 
   .gif {
