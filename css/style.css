@@ -21,8 +21,14 @@ body {
 }
 
 #myVideo {
-  display: none;
-  z-index: -4;
+  display: flex;
+  position: fixed;
+  z-index: -3;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
 }
 
 * {
