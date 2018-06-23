@@ -83,6 +83,16 @@ footer img {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
+.homecontainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .designcontainer {
   width: 85vw;
   margin: 0 auto;
@@ -139,15 +149,6 @@ footer img {
   margin-top: -4%;
 }
 
-.gif {
-  width: 75%;
-  z-index: 1;
-  position: absolute;
-  left:0;
-  right: 0;
-  margin: 0 auto;
-}
-
 @media only screen and (min-width: 768px) {
 
   html {
@@ -157,11 +158,6 @@ footer img {
     overflow-x: hidden;
     padding-bottom: 200px;
   }
-
-  .gif {
-    display: none;
-  }
-
 
   #myVideo {
     display: flex;
@@ -220,16 +216,6 @@ footer img {
   .titlecontainer img {
     width: 10%;
     margin-top: -12%;
-  }
-
-  .gif {
-    position: absolute;
-    width: 20%;
-    z-index: 1;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    margin-top: -4%;
   }
 
 }
